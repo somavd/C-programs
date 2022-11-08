@@ -1,0 +1,17 @@
+/*
+	Pointer to function
+*/
+#include"lib.c"
+int add(int a,int b)  	  //function add
+{
+return a+b;
+}
+void main()
+{
+int (*p)(int,int);  	  //Declaration of pointer to function
+clrscr();
+p=add;                    //p points to function add
+printf("\n%d",(*p)(5,5)); // calling of function using pointer
+printf("\nEnter any key to exit");
+getch();
+}

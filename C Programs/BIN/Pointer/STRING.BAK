@@ -1,0 +1,13 @@
+/*
+	Pointer to string
+*/
+#include"lib.c"
+void main()
+{
+char a[]="ABCD",*p;      //p is char pointer and a is string
+clrscr();
+p=a;                     //p points to string a
+printf("\n%s=%s",a,p);     //Display string Using a and p
+printf("\nEnter any key to Exit");
+getch();
+}

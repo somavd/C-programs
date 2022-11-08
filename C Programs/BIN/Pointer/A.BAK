@@ -1,0 +1,10 @@
+#include"lib.c"
+//header files
+void main()
+{
+printf("Hello world");
+/*
+    new pgm
+    */
+    getch();
+    }
